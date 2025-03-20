@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://i.imgur.com/f7rjBLp.jpeg'))
 CODE = (environ.get('CODE', 'https://graph.org/file/b17fa60a698113e0f7334-2ffa07cd565c8fbba1.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io'))
-STREAM_API = (environ.get('STREAM_API', 'PUIAQBIFrydvLhIzAOeGV8yZppu2'))
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', ''))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HOWTO615/69'))
 
 # Admins, Channels & Users
@@ -50,8 +50,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tebewe5743:39frOJgp7kMf6b28@cluster0.w66po.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "tebewe5743")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://loyehab678:OMsUGQ9saSqdNkow@cluster0.svzv6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "OMsUGQ9saSqdNkow")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Filmy_adda')
 
 # Verify
